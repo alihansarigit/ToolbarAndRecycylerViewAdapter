@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="myTheme" parent ="@android:style/Theme.Material.Light">
+    <!--+21 api de çalışacak özellik-->
+    <!--+21 api de çalışacak özellik-->
+  </style>
+
+  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- 17 api >=21 api de çalışacak özellik-->
+    <!-- 17 api >=21 api de çalışacak özellik-->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+
+  <style name="toolbarTheme" parent="ThemeOverlay.AppCompat.Light">
+    <item name="android:textColor">@color/textColor</item>
+  </style>
+</resources>

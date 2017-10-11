@@ -1,0 +1,19 @@
+<resources>
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- 17 api >=21 api de çalışacak özellik-->
+    <!-- 17 api >=21 api de çalışacak özellik-->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+
+  <style name="toolbarTheme" parent="ThemeOverlay.AppCompat.Light">
+    <item name="android:textColorPrimary">@color/textColor</item>
+    <item name="android:textColorSecondary">@color/textColor</item>
+  </style>
+
+  <style name="popupMenu" parent="ThemeOverlay.AppCompat.Dark">
+    <item name="android:textColorPrimary">@color/colorAccent</item>
+  </style>
+</resources>

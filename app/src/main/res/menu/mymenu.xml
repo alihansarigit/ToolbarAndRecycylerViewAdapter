@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item
+    android:id="@+id/id1"
+    android:title="LinearHorizontal"
+    app:showAsAction="never"></item>
+  <item
+    android:id="@+id/id2"
+    android:title="LinearVertical"
+    app:showAsAction="never"></item>
+  <item
+    android:id="@+id/id3"
+    android:title="Grid"
+    app:showAsAction="never"></item>
+  <item
+    android:id="@+id/id4"
+    android:title="GridStagHori"
+    app:showAsAction="never"></item>
+  <item
+    android:id="@+id/id5"
+    android:title="GridStagVertical"
+    app:showAsAction="never"></item>
+</menu>

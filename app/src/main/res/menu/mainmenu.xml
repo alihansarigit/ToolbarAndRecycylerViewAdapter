@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+      android:id="@+id/nav_camera"
+      android:title="First Layout"
+      app:showAsAction="always"/>
+    <item
+      android:id="@+id/nav_gallery"
+      app:showAsAction="always"
+      android:title="Second" />
+    <item
+      android:id="@+id/nav_slideshow"
+      app:showAsAction="never"
+      android:title="Third" />
+    <item
+      android:id="@+id/nav_manage"
+      app:showAsAction="never"
+      android:title="Tools" />
+
+</menu>
